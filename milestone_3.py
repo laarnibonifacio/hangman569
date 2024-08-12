@@ -18,5 +18,4 @@ def ask_for_input():
         else:
             print ("Invalid letter. Please, enter a single alphabetical character.")
             
-
 ask_for_input()

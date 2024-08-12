@@ -7,6 +7,8 @@ word = random.choice(word_list)
 print(word)
 
 guess = input('Enter a single letter: ')
+
+#Check if the input is valid
 if len(guess) == 1 and guess.isalpha():
     print('Good guess!')
 else:
