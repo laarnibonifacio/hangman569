@@ -49,9 +49,8 @@ def play_game(word_list):
         elif game.num_letters > 0:
             game.ask_for_input()
         elif game.num_lives > 1 and game.num_letters == 0:
-            print(game.word_guessed)
             print('Congratulations. You won the game!')
             break
 
-game=Hangman(word_list)
+game = Hangman(word_list)
 play_game(word_list)
