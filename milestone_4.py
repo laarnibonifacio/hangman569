@@ -1,4 +1,5 @@
 import random
+from typing import Self
 
 word_list = ['apple', 'orange', 'banana', 'grapes', 'melon']
 
@@ -37,7 +38,8 @@ class Hangman:
 
 hangman = Hangman(word_list)
 hangman.ask_for_input()
-
+print("The mistery word has {num_letters} characters")
+print("{word_guessed}")
 
 
         
